@@ -26,3 +26,45 @@ Out of Scope
 
 Only worry about 1 set
 Don't worry about validation, assume the client passes in correct data
+
+## Project Structure
+/tennis-scoring-system
+|-- /src
+| |-- Match.ts # Class that manages the match
+| |-- Player.ts # Class representing a player
+| |-- Scoreboard.ts # Class that handles the scoring logic
+| |-- index.ts # Entry point for the application
+| |-- Match.test.ts # Unit tests for the Match class
+| |-- Player.test.ts # Unit tests for the Player class
+| |-- Scoreboard.test.ts # Unit tests for the Scoreboard class
+|-- jest.config.js # Configuration file for Jest
+|-- tsconfig.json # Configuration file for TypeScript
+|-- package.json # Project dependencies and scripts
+
+## Installation
+
+1. **Install dependencies**:
+    ```bash
+    yarn
+    ```
+
+2. **Compile the TypeScript code**:
+    ```bash
+    yarn build
+    ```
+## Run the project
+```bash
+yarn start
+```
+
+## Usage
+1. **Run tests**:
+    ```bash
+    yarn test
+    ```
+
+2. **Format code**:
+    ```bash
+    yarn lint:fix
+    ```
+
